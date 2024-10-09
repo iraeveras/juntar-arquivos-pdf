@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Juntar Arquivos PDF</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Juntar PDF</h1>
+        <div class="upload-area" id="upload-area">
+            <p><button id="file-select">Select PDFs</button></p>
+            <input type="file" name="" id="file-input" multiple accept="application/pdf" style="display: none;">
+        </div>
+        <button id="combine-btn" disabled>Combine PDFs</button>
+
+        <a id="download-link">Download Combined PDF</a>
+    </div>
+    <script src="./src/javascript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+</body>
+</html>
